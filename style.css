@@ -87,9 +87,26 @@ button {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 515px) {
+    #modes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mode {
+        width: auto;
+        font-size: 5px;
+    }
     header {
         font-size: 4rem;
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        font-size: 3rem;
     }
     #container {
         width: 20rem;

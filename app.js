@@ -151,67 +151,67 @@ let randomBlock = function() {
 function checkWinner() {
     if (b1.innerText === 'X' && b2.innerText === 'X' && b3.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b1.innerText === 'O' && b2.innerText === 'O' && b3.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b1.innerText === 'X' && b4.innerText === 'X' && b7.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b1.innerText === 'O' && b4.innerText === 'O' && b7.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b1.innerText === 'X' && b5.innerText === 'X' && b9.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b1.innerText === 'O' && b5.innerText === 'O' && b9.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b2.innerText === 'X' && b5.innerText === 'X' && b8.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b2.innerText === 'O' && b5.innerText === 'O' && b8.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b3.innerText === 'X' && b6.innerText === 'X' && b9.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b3.innerText === 'O' && b6.innerText === 'O' && b9.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b3.innerText === 'X' && b5.innerText === 'X' && b7.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b3.innerText === 'O' && b5.innerText === 'O' && b7.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b4.innerText === 'X' && b5.innerText === 'X' && b6.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b4.innerText === 'O' && b5.innerText === 'O' && b6.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     } else if (b7.innerText === 'X' && b8.innerText === 'X' && b9.innerText === 'X') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "X"!'
+        header.textContent = 'CONGRATS "X"!'
         header.style.color = '#0ac94d'
     } else if (b7.innerText === 'O' && b8.innerText === 'O' && b9.innerText === 'O') {
         winnerFlag = true;
-        header.innerText = 'CONGRATS "O"!'
+        header.textContent = 'CONGRATS "O"!'
         header.style.color = '#0ac94d'
     }
 
