@@ -19,7 +19,15 @@ header {
     margin-bottom: 1rem;
 }
 
-#btn {
+#modes button {
+    margin-bottom: 1em;
+    margin: 70px;
+    transform: scale(2);
+}
+
+#btn,
+#modes button,
+#change-mode {
     background: none;
     color: #ffa260;
     border: 2px solid;
@@ -56,7 +64,9 @@ button {
     transform: scale(1.1);
 }
 
-#btn:hover {
+#btn:hover,
+#modes button:hover,
+#change-mode:hover {
     border-color: #f1ff5c;
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
